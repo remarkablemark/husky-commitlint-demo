@@ -1,6 +1,6 @@
 # husky-commitlint-demo
 
-Demo of how to lint Git commit messages with [commitlint](https://github.com/conventional-changelog/commitlint) and [husky](https://github.com/typicode/husky). Read [blog post](https://b.remarkabl.org/3u0Vdlc).
+Demo of how to lint Git commit messages with [commitlint](https://b.remarkabl.org/commitlint) and [husky](https://b.remarkabl.org/husky). Read [blog post](https://b.remarkabl.org/3u0Vdlc).
 
 ## Prerequisites
 
