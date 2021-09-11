@@ -11,14 +11,14 @@ Demo of how to lint Git commit messages with [commitlint](https://b.remarkabl.or
 Clone repository:
 
 ```sh
-$ git clone https://github.com/remarkablemark/husky-commitlint-demo.git
-$ cd husky-commitlint-demo
+git clone https://github.com/remarkablemark/husky-commitlint-demo.git
+cd husky-commitlint-demo
 ```
 
 Install dependencies:
 
 ```sh
-$ npm install
+npm install
 ```
 
 ## husky
@@ -26,19 +26,19 @@ $ npm install
 Enable Git hooks:
 
 ```sh
-$ npx husky install
+npx husky install
 ```
 
 Add the `commit-msg` hook:
 
 ```sh
-$ npx husky add .husky/commit-msg 'npx commitlint --edit $1'
+npx husky add .husky/commit-msg 'npx commitlint --edit $1'
 ```
 
 Uninstall husky:
 
 ```sh
-$ npm uninstall husky
+npm uninstall husky
 ```
 
 ## package.json
