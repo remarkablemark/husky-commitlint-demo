@@ -54,9 +54,9 @@ Private package:
     "postinstall": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
-    "husky": "^7.0.2"
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "husky": "latest"
   }
 }
 ```
@@ -72,10 +72,10 @@ Public package:
     "postpublish": "pinst --enable"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
-    "husky": "^7.0.2",
-    "pinst": "^2.1.4"
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "husky": "latest",
+    "pinst": "latest"
   }
 }
 ```
