@@ -28,7 +28,7 @@ npm install
 Enable Git hooks:
 
 ```sh
-npx husky install
+npx husky
 ```
 
 Add the `commit-msg` hook:
@@ -51,7 +51,7 @@ Private package:
 {
   "private": true,
   "scripts": {
-    "postinstall": "husky install"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
@@ -67,15 +67,12 @@ Public package:
 {
   "private": false,
   "scripts": {
-    "postinstall": "husky install",
-    "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
-    "husky": "latest",
-    "pinst": "latest"
+    "husky": "latest"
   }
 }
 ```
