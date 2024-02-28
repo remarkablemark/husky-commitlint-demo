@@ -34,13 +34,7 @@ npx husky
 Add the `commit-msg` hook:
 
 ```sh
-npx husky add .husky/commit-msg 'npx commitlint --edit $1'
-```
-
-Uninstall husky:
-
-```sh
-npm uninstall husky
+echo 'npx commitlint --edit $1' > .husky/commit-msg
 ```
 
 ## package.json
